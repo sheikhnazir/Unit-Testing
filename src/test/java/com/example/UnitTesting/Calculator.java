@@ -9,6 +9,13 @@ public class Calculator {
 
     //Product
     public int doProduct(int a, int b) {
+
         return a*b;
+    }
+
+    //Compare
+    public boolean compare(int a, int b) {
+
+        return a== b;
     }
 }

@@ -36,4 +36,11 @@ class UnitTestingApplicationTests {
 		assertThat(actual).isGreaterThan(expected);
 	}
 
+	@Test
+	void doCompare() {
+
+		Boolean actual = c.compare(3, 3);
+
+		assertThat(actual).isTrue();
+	}
 }

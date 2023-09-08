@@ -15,7 +15,7 @@ public class AdminService {
     @Autowired
     private AdminRepo adminRepo;
 
-    public List<Admin> getAllPerson() {
+    public List<Admin> getAllAdmin() {
 
         return this.adminRepo.findAll();
     }
